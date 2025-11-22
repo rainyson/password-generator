@@ -10,12 +10,6 @@ import (
 	"strings"
 )
 
-func check(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
 func main() {
 	fmt.Print("Enter Password Length: ")
 	length, err := getLengthInput()
